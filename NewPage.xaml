@@ -1,0 +1,24 @@
+﻿<Page x:Class="WpfApp1.NewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NewPage">
+
+    <Grid>
+        <Button Name="get" Content="Get Data" HorizontalAlignment="Left" Margin="246,57,0,0" VerticalAlignment="Top" Width="75" Click="get_Click"/>
+        <Button Name="connect" Content="Connect" HorizontalAlignment="Left" Margin="127,57,0,0" VerticalAlignment="Top" Width="75" Click="connect_Click"/>
+        <DataGrid Name="grid" HorizontalAlignment="Left" Height="195" Margin="127,201,0,0" VerticalAlignment="Top" Width="218"/>
+        <Button Name="first" Content="First" HorizontalAlignment="Left" Margin="246,116,0,0" VerticalAlignment="Top" Width="75" Click="first_Click"/>
+        <Button Name="next" Content="Next" HorizontalAlignment="Left" Margin="361,116,0,0" VerticalAlignment="Top" Width="75" Click="next_Click"/>
+        <Button Name="prev" Content="Prev" HorizontalAlignment="Left" Margin="476,116,0,0" VerticalAlignment="Top" Width="75" Click="prev_Click"/>
+        <Button Name="last" Content="Last" HorizontalAlignment="Left" Margin="592,116,0,0" VerticalAlignment="Top" Width="75" Click="last_Click"/>
+        <TextBox Name="t1" HorizontalAlignment="Left" Height="23" Margin="491,207,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="t2" HorizontalAlignment="Left" Height="23" Margin="491,260,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="t3" HorizontalAlignment="Left" Height="23" Margin="491,319,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Page>
